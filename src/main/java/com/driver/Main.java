@@ -25,13 +25,9 @@ public class Main {
         Product p = new Product();
 
         // operations
-        int productXY = p.product(10, 20);
-        System.out.println(productXY);
+        p.product(10, 20);
+        p.product(10, 20, 30);
+        p.product(10.5, 20.5);
 
-        int productXYZ = p.product(10, 20, 30);
-        System.out.println(productXYZ);
-
-        double product_XY = p.product(10.5, 20.5);
-        System.out.println(product_XY);
     }
 }
